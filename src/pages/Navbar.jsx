@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
- 
+import '../CSSfiles/NavBar.css'
+
 export default function Navbar() {
-    return(
+    return (
         <nav>
             <h1>seed theory</h1>
             <ul>
@@ -10,6 +11,9 @@ export default function Navbar() {
                 </li>
                 <li>
                     <Link to="./shop">Shop</Link>
+                </li>
+                <li>
+                    <Link to="./checkout">Checkout</Link>
                 </li>
             </ul>
         </nav>
